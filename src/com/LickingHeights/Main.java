@@ -30,7 +30,7 @@ public class Main {
         System.out.println("This means that your weight in Kilograms is "+kg);
         bmi = (kg/(m*m));
         System.out.println("Your BMI is "+bmi);
-        //this is a new line of code
+        //change the comment line to something completely different
 
 
     }
