@@ -24,7 +24,7 @@ public class Main {
         inches = inches + (feet * 12);
         System.out.println("Your height in inches is "+inches+".");
         m = (0.0254*inches);
-        System.out.println("This means that your height in meters is "+m+".");
+        System.out.println("You are also "+m+" meters tall.");
         System.out.println("To the nearest whole number, what is your weight in pounds?");
         lb = keyboard.nextInt();
         kg = (lb*0.453592);
