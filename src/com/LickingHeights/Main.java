@@ -16,6 +16,7 @@ public class Main {
         double bmi;
         //initialize
         System.out.println("Welcome to BMI Calculator. To continue, you must answer the following questions.");
+        System.out.println("________________________________________________________________________________");
         System.out.println("What is you height (only feet)?");
         feet = keyboard.nextInt();
         System.out.println("What is your height (only inches)?");
@@ -29,7 +30,7 @@ public class Main {
         kg = (lb*0.453592);
         System.out.println("This means that your weight in Kilograms is "+kg);
         bmi = (kg/(m*m));
-        System.out.println("Your BMI is "+bmi);
+        System.out.println("Your BMI is "+bmi+".");
         //change the comment line to something completely different
 
 
